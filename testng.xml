@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegistrationSuitfinal">
+    <test verbose="2" preserve-order="true" name="RegistrastionTest">
+        <classes>
+            <class name="DemoFreamwork.Automation_Test">
+                <methods>
+                    <include name="setupBrowserTest"/>
+                    <include name="randomEmailTest"/>
+                    <include name="fillFormTest"/>
+                    <include name="AssertionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="RegSuit2">
+        <classes>
+            <class name="testcase.excelReader">
+                <methods>
+                    <include name="runner"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

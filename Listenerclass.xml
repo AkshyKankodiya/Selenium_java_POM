@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Listnerclass_Suit">
+    <listeners>
+        <listener class-name="DriverFact.ListenersTest"></listener>
+    </listeners>
+
+    <test name="RegistrastionTestwithListners1">
+        <classes>
+            <class name="DemoFreamwork.Automation_Test">
+                <methods>
+                    <include name="setupBrowserTest"/>
+                    <include name="randomEmailTest"/>
+                    <include name="fillFormTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="excelreaderWithListner">
+        <classes>
+            <class name="testcase.excelReader">
+                <methods>
+                    <include name="runner"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

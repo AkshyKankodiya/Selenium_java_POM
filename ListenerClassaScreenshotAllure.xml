@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Listnerclass_Suit">
+    <listeners>
+        <listener class-name="DriverFact.ListnersWithScreenshotAllure"></listener>
+    </listeners>
+
+    <test name="RegistrastionTestwithListners1">
+        <classes>
+            <class name="DemoFreamwork.Automation_Test">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
